@@ -24,6 +24,14 @@ Aggiunto `"start": "node_modules/rendertron/bin/rendertron",` alla sezione
 
 Aggiunto il file `config.json` per le impostazioni di base.
 
+---
+
+#### aggiungerlo a pm2
+
+```
+pm2 start ecosystem.config.js
+pm2 save
+```
 
 
 ---
