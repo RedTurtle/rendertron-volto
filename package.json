@@ -4,6 +4,7 @@
   "description": "Rendertron for Volto",
   "main": "index.js",
   "scripts": {
+    "prestart": "bash enable_config_json",
     "start": "node_modules/rendertron/bin/rendertron",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
