@@ -33,5 +33,23 @@ pm2 start ecosystem.config.js
 pm2 save
 ```
 
+---
+
+## Librerie di sistema necessarie
+
+Sulla nostra prima macchina di prova, abbiamo dovuto installare i seguenti pacchetti di sistema:
+
+```
+libappindicator3-1
+libasound2
+libatk-bridge2.0-0
+libdrm-dev
+libgbm1
+libgtk-3-0
+libx11-xcb1
+libxkbcommon-dev
+libxrandr2
+```
+
 
 ---
