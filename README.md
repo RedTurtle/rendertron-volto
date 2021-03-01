@@ -53,3 +53,15 @@ libxrandr2
 
 
 ---
+
+## Installazione
+
+Effettuare il clone:
+
+```bash
+npm install
+# edit config
+bash enable_config_json
+pm2 start ecosystem.config.js
+pm2 save
+```
